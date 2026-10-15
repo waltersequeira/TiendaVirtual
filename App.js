@@ -1,18 +1,6 @@
-import { StyleSheet, View } from "react-native";
+import React from 'react';
+import Navegacion from './Navegacion/Navegacion';
 
-import Catalogo from "./Screens/Catalogo";
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Catalogo />
-    </View>
-  );
+  return <Navegacion />;
 }
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
